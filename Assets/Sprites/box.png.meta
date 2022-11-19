@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: f3b35ca1fc365b348815119fd57bace9
+<<<<<<< HEAD:Assets/Fonts/Space_cover.jpg.meta
+guid: d37a9aa417628fe4ab84e9636161d124
+=======
+guid: a8ff9ccd2c08350499435fa822c6296b
+>>>>>>> df46894a7fb660db0d1d78b9465b69f49272e7cc:Assets/Sprites/box.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
