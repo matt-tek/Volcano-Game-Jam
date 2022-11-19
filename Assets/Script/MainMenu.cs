@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class MainMenu : MonoBehaviour
 {
+    public AudioSource audioSource;
     public string levelToLoad;
     public GameObject settingsPanel;
 
@@ -14,8 +16,8 @@ public class MainMenu : MonoBehaviour
     }
 
     public void SettingsBtn()
-    {
-        settingsPanel.SetActive(true);  
+    { 
+        settingsPanel.SetActive(true);
     }
     public void CloseSettingsBtn()
     {
@@ -25,5 +27,10 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void PlaySound()
+    {
+        audioSource.Play();
     }
 }
