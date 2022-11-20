@@ -21,7 +21,8 @@ public class GroundCheck : MonoBehaviour
     {
         _isGrounded = Physics2D.OverlapCapsule(groundCheck.position, new Vector2(0.5f, 0.3f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
-        if (Input.GetButtonDown("Jump") && _isGrounded)
+        if (Input.GetButtonDown(
+                "Jump") && _isGrounded)
             _body.velocity = new Vector2(_body.velocity.x, jumpPower);        
     }
 }
