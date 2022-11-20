@@ -5,7 +5,6 @@ using UnityEngine;
 public class Button1 : MonoBehaviour
 {
     [SerializeField] public GameObject wind;
-    //private bool isPressed = false;
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +24,5 @@ public class Button1 : MonoBehaviour
     {
         this.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
         wind.SetActive(true);
-        //isPressed = true;
     }
 }
