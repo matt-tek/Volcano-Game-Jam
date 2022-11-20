@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d38e338755a3b7f48a259d4d998aec73
+guid: 591de62642e365f4f8e55d026ec5e0cf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door_0
+      name: wind_0
       rect:
         serializedVersion: 2
-        x: 450
-        y: 267
-        width: 321
-        height: 546
+        x: 218
+        y: 577
+        width: 10
+        height: 141
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e359837ce89f024cbad25ef8e974613
-      internalID: -338630525
+      spriteID: 57a7134ac4b710647948532b5b0d28b9
+      internalID: -1330554109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_1
+      name: wind_1
       rect:
         serializedVersion: 2
-        x: 1531
-        y: 267
-        width: 319
-        height: 546
+        x: 244
+        y: 542
+        width: 10
+        height: 133
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6b89aae135c068409bc00988632ec97
-      internalID: -1197548454
+      spriteID: 988005c630ed8e3449801d8f18f2052c
+      internalID: -1103866909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_2
+      name: wind_2
       rect:
         serializedVersion: 2
-        x: 2612
-        y: 267
-        width: 319
-        height: 546
+        x: 262
+        y: 674
+        width: 10
+        height: 44
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a4ad71fe221fb9489c508defa325a7c
-      internalID: 1734777492
+      spriteID: 8313efc83000da249b273db68e15f4c8
+      internalID: 528941830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_3
+      name: wind_3
       rect:
         serializedVersion: 2
-        x: 3690
-        y: 267
-        width: 320
-        height: 546
+        x: 297
+        y: 603
+        width: 10
+        height: 115
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdb7c8bfd1630014d8e8e096e3522caf
-      internalID: 960043406
+      spriteID: 6eb3f68eee9e6e942af4385c9ecfff21
+      internalID: 663485587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_4
+      name: wind_4
       rect:
         serializedVersion: 2
-        x: 4771
-        y: 267
-        width: 319
-        height: 546
+        x: 324
+        y: 656
+        width: 9
+        height: 53
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1d99b5cb9669b4b9949d2a6a155887
-      internalID: 752946826
+      spriteID: aed2468bac5424f4ea5e3dac1cfba66b
+      internalID: 64895407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wind_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 586
+        width: 9
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde3668179afefd4cb9bc2107b967176
+      internalID: -1926344875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wind_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 568
+        width: 10
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6806bc644511eb344aaf0d2125633789
+      internalID: 494107308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wind_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 550
+        width: 9
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a40ae2e25968c47afaf7791a968a61
+      internalID: 1960329836
       vertices: []
       indices: 
       edges: []
@@ -232,11 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      door_1: -1197548454
-      door_3: 960043406
-      door_2: 1734777492
-      door_0: -338630525
-      door_4: 752946826
+      wind_1: -1330554109
+      wind_6: -1926344875
+      wind_2: -1103866909
+      wind_0: 713715655
+      wind_5: 64895407
+      wind_4: 663485587
+      wind_3: 528941830
+      wind_7: 494107308
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
