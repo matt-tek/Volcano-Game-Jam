@@ -486,7 +486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1542403444}
-  levelToLoad: SampleScene
+  levelToLoad: Lobby
   settingsPanel: {fileID: 1920946280}
 --- !u!1 &655095247
 GameObject:
@@ -747,7 +747,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
       - m_Target: {fileID: 498168963}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: PlaySound
@@ -759,7 +759,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!114 &811617012
 MonoBehaviour:
   m_ObjectHideFlags: 0
