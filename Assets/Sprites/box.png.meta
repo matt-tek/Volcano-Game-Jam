@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Fonts/Space_cover.jpg.meta
+guid: d37a9aa417628fe4ab84e9636161d124
+=======
 guid: a8ff9ccd2c08350499435fa822c6296b
+>>>>>>> df46894a7fb660db0d1d78b9465b69f49272e7cc:Assets/Sprites/box.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -91,18 +95,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
